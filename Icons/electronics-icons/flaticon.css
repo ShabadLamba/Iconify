@@ -1,0 +1,214 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-batteries16:before {
+	content: "\e000";
+}
+.flaticon-battery34:before {
+	content: "\e001";
+}
+.flaticon-calculate12:before {
+	content: "\e002";
+}
+.flaticon-chips1:before {
+	content: "\e003";
+}
+.flaticon-cinema69:before {
+	content: "\e004";
+}
+.flaticon-cinema70:before {
+	content: "\e005";
+}
+.flaticon-cinema71:before {
+	content: "\e006";
+}
+.flaticon-clean12:before {
+	content: "\e007";
+}
+.flaticon-cloud computing2:before {
+	content: "\e008";
+}
+.flaticon-communication10:before {
+	content: "\e009";
+}
+.flaticon-computer monitor3:before {
+	content: "\e00a";
+}
+.flaticon-computer mouse29:before {
+	content: "\e00b";
+}
+.flaticon-computers34:before {
+	content: "\e00c";
+}
+.flaticon-controllers:before {
+	content: "\e00d";
+}
+.flaticon-document239:before {
+	content: "\e00e";
+}
+.flaticon-earphones21:before {
+	content: "\e00f";
+}
+.flaticon-eyeglasses28:before {
+	content: "\e010";
+}
+.flaticon-game controller7:before {
+	content: "\e011";
+}
+.flaticon-game controller8:before {
+	content: "\e012";
+}
+.flaticon-gamepad21:before {
+	content: "\e013";
+}
+.flaticon-internet78:before {
+	content: "\e014";
+}
+.flaticon-keyboards9:before {
+	content: "\e015";
+}
+.flaticon-levels4:before {
+	content: "\e016";
+}
+.flaticon-light128:before {
+	content: "\e017";
+}
+.flaticon-map pointer10:before {
+	content: "\e018";
+}
+.flaticon-microphone121:before {
+	content: "\e019";
+}
+.flaticon-microphone122:before {
+	content: "\e01a";
+}
+.flaticon-monitor101:before {
+	content: "\e01b";
+}
+.flaticon-musical161:before {
+	content: "\e01c";
+}
+.flaticon-musical162:before {
+	content: "\e01d";
+}
+.flaticon-music player38:before {
+	content: "\e01e";
+}
+.flaticon-music player40:before {
+	content: "\e01f";
+}
+.flaticon-networking7:before {
+	content: "\e020";
+}
+.flaticon-nintendo15:before {
+	content: "\e021";
+}
+.flaticon-office material3:before {
+	content: "\e022";
+}
+.flaticon-office material4:before {
+	content: "\e023";
+}
+.flaticon-phone call10:before {
+	content: "\e024";
+}
+.flaticon-phone call12:before {
+	content: "\e025";
+}
+.flaticon-photo camera19:before {
+	content: "\e026";
+}
+.flaticon-photo camera21:before {
+	content: "\e027";
+}
+.flaticon-photography46:before {
+	content: "\e028";
+}
+.flaticon-positive:before {
+	content: "\e029";
+}
+.flaticon-printer29:before {
+	content: "\e02a";
+}
+.flaticon-printing31:before {
+	content: "\e02b";
+}
+.flaticon-radio waves:before {
+	content: "\e02c";
+}
+.flaticon-satellites3:before {
+	content: "\e02d";
+}
+.flaticon-skating6:before {
+	content: "\e02e";
+}
+.flaticon-smartphone160:before {
+	content: "\e02f";
+}
+.flaticon-space ship2:before {
+	content: "\e030";
+}
+.flaticon-stars67:before {
+	content: "\e031";
+}
+.flaticon-supermarket31:before {
+	content: "\e032";
+}
+.flaticon-tablet29:before {
+	content: "\e033";
+}
+.flaticon-technological:before {
+	content: "\e034";
+}
+.flaticon-technology44:before {
+	content: "\e035";
+}
+.flaticon-technology45:before {
+	content: "\e036";
+}
+.flaticon-technology46:before {
+	content: "\e037";
+}
+.flaticon-technology47:before {
+	content: "\e038";
+}
+.flaticon-telephone167:before {
+	content: "\e039";
+}
+.flaticon-transport264:before {
+	content: "\e03a";
+}
+.flaticon-tv screen11:before {
+	content: "\e03b";
+}
+.flaticon-video camera18:before {
+	content: "\e03c";
+}
+.flaticon-video camera19:before {
+	content: "\e03d";
+}
+.flaticon-video game15:before {
+	content: "\e03e";
+}
+.flaticon-vigilance:before {
+	content: "\e03f";
+}
+.flaticon-wireless connectivity13:before {
+	content: "\e040";
+}
+.flaticon-wireless internet6:before {
+	content: "\e041";
+}

@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='bootstrap/css/bootstrap.css') }}">
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
+	</head>
+<body class="lead" background-color=#000000>
+<div class = "container">
+	<div class="row">
+		<div class="h1" class="col-md-6">
+			<p class="text-center"><strong>Iconify</strong></p>
+		</div>
+	</div>
+</div>
+<div class = "container">
+	<div class="row">
+		<div class="col-md-5">
+			<p class="text-uppercase"><h3>Enter your Passage here:</h3></p>
+				<textarea cols= '45' rows='15' name='passage' id="passage"></textarea>
+		</div>
+		<div class="col-md-2 center-block text-center">
+				<button id="button" class="btn btn-lg btn-danger">Generate <i class="glyphicon glyphicon-chevron-right"></i></button>
+		</div>
+		<div class="col-md-5" class="dl-horizontal">
+			<strong><h3>Output</h3></strong>
+			<div id="output" class="dl-horizontal"></div>
+		</div>
+	</div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="static/bootstrap/js/bootstrap.js"></script>
+<script>
+
+function btnclick() {
+	var data = JSON.stringify({input: $("#passage").val()});
+	$.ajax("/", {
+	    data: data,
+	    contentType : "application/json",
+	    type : "POST"
+	}).success(function(data) {
+		console.log(data);
+		$("#output").text('')
+		$("#output").append(data.output);
+	}).fail(function(err){
+		console.log(err);
+	});
+}
+
+$("#button").on('click', btnclick);
+
+</script>
+</body>
+</html>

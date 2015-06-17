@@ -1,0 +1,61 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-bag30:before {
+	content: "\e000";
+}
+.flaticon-boat18:before {
+	content: "\e001";
+}
+.flaticon-coconut8:before {
+	content: "\e002";
+}
+.flaticon-compass67:before {
+	content: "\e003";
+}
+.flaticon-credit70:before {
+	content: "\e004";
+}
+.flaticon-directions2:before {
+	content: "\e005";
+}
+.flaticon-earth186:before {
+	content: "\e006";
+}
+.flaticon-passport2:before {
+	content: "\e007";
+}
+.flaticon-photo147:before {
+	content: "\e008";
+}
+.flaticon-place4:before {
+	content: "\e009";
+}
+.flaticon-plane15:before {
+	content: "\e00a";
+}
+.flaticon-plate17:before {
+	content: "\e00b";
+}
+.flaticon-sun70:before {
+	content: "\e00c";
+}
+.flaticon-taxi14:before {
+	content: "\e00d";
+}
+.flaticon-wallet17:before {
+	content: "\e00e";
+}

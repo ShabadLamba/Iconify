@@ -1,0 +1,24 @@
+<html>
+
+<head>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='styles.css') }}">
+	</head>
+<body>
+
+<h1>Iconified!</h1>
+
+{% for i in string %}
+	{% for j in noun %}	
+	
+		{% if i == j %}
+			<p>{{i}}<p>
+				<br>
+				<br>
+		{% endif %}
+
+		{% endfor %}
+		
+		{% endfor %}
+
+</body>
+</html>
